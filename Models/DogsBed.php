@@ -1,5 +1,7 @@
 <?php
+require_once __DIR__ . '/../Traits/Dimensions.php';
 class DogsBed extends Product {
+    use Dimensions;
     public $type;
     public $name;
     public $price;

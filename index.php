@@ -4,8 +4,15 @@ require_once __DIR__ . '/Models/Product.php';
 $ball = new Game('Dog', 'Game', 7.99, 'Ball');
 $bone = new Food('Dog', 'Food', 5.99, 'Bone');
 $peluche = new Game('Cat', 'Game', 8.99, 'Peluche');
+
 $dogBed = new DogsBed('Dog', 'DogsBed', 55.99, 'Dog Bed');
+$dogBed->height = '70cm';
+$dogBed->width = '90cm';
+
 $catBed = new DogsBed('Cat', 'CatsBed', 35.99, 'Cat Bed');
+$catBed->height = '30cm';
+$catBed->width = '45cm';
+
 $kibbles = new Food('Cat', 'Food', 15.99, 'Kibbles');
 
 
